@@ -4,15 +4,15 @@ export default {
     data() {
       return {
         message: "我爱Vue!",
-     };
+     }
     },
+    
     components: {
-      "my-button":MyButton
+      MyButton
     },
-    // template: `
-    // <h1>{{message}}</h1>
-    // <MyButton></MyButton>
-    // <MyButton></MyButton>
-    // <MyButton></MyButton>
-    // `,
+    
+    template: `
+    <h1>{{message}}</h1>
+    <MyButton></MyButton>
+    `,
 };
